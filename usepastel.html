@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background-color: #19191a;
+        position: relative;
+      }
+      .circle {
+        width: 150px;
+        height: 150px;
+        background-color: #4f77ff;
+        border-radius: 50%;
+        margin-top: -50px;
+        position: absolute;
+        z-index: 1;
+      }
+      .quarter-circle {
+        width: 75px;
+        height: 75px;
+        border-bottom-left-radius: 100%;
+        z-index: 2;
+        margin-left: -75px;
+        margin-top: 25px;
+        background-color: #9ad5ff;
+      }
+      .rectangle {
+        position: absolute;
+        background-color: #f9e492;
+        width: 75px;
+        height: 125px;
+        margin-top: 75px;
+        margin-left: -75px;
+        z-index: 0;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        background: #dd6b4d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="circle"></div>
+    <div class="rectangle"></div>
+    <div class="quarter-circle"></div>
+  </body>
+</html>
