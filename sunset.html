@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset</title>
+    <style>
+        body {
+          display: grid;
+          place-items: center;
+          width: 100%;
+          height: 100%;
+          background-color: #191919;
+          position: relative;
+        } 
+        .outer-frame {
+          width: 150px;
+          height: 200px;
+          background-color: #F2AD43;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          border-bottom-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+          margin-top: -15px;
+          z-index: 0;
+          position: absolute;
+           overflow:hidden;
+          display: grid;
+          place-items: center;
+        }
+        .inner-circle {
+          width: 55px;
+          height: 55px;
+          background: #FFF58F;
+          border-radius: 50%;
+          position:absolute;
+          z-index: 1;
+          margin-top: 20px;
+        }
+          .left-circle {
+          width: 170px;
+          height: 170px;
+          background: #E08027;
+          border-radius: 50%;
+          position:absolute;
+          z-index: 2;
+          margin-top: 165px;
+          margin-left: -125px;
+        }
+          .right-circle {
+          width: 200px;
+          height: 200px;
+          background: #824B20;
+          border-radius: 50%;
+          position:absolute;
+          z-index: 2;
+          margin-top: 200px;
+          margin-left: 130px;
+        }
+      </style>      
+</head>
+<body>
+    <div class="outer-frame">
+        <div class="inner-circle"></div>
+        <div class="left-circle"></div>
+        <div class="right-circle"></div>
+        </div>
+</body>
+</html>
