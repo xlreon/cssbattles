@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona</title>
+    <style>
+        body {
+          display:grid;
+          place-items:center;
+          width: 100%;
+          height: 100%;
+          background-color: #1A4341;
+          position: relative;
+        }
+        .outer-circle {
+          width: 100px;
+          height: 100px;
+          background: #F3AC3C;
+          border-radius: 50%;
+         margin-top: -20px;
+          margin-left: -15px;
+          position: absolute;
+          z-index: 1;
+        }
+        .inner-circle {
+          width: 20px;
+          height: 20px;
+          background: #998235;
+          border-radius: 50%;
+             margin-top: 33px;
+          margin-left: -15px;
+          position: absolute;
+          z-index: 1;
+        }
+         .inner-circle1 {
+          width: 30px;
+          height: 30px;
+          background: #998235;
+          border-radius: 50%;
+             margin-top: -45px;
+          margin-left: -50px;
+          position: absolute;
+          z-index: 1;
+        }
+        
+           .inner-circle3 {
+          width: 10px;
+          height: 10px;
+          background: #998235;
+          border-radius: 50%;
+             margin-top: -65px;
+          margin-left: 35px;
+          position: absolute;
+          z-index: 1;
+        }
+        .bar1 {
+           width: 10px;
+          height: 175px;
+          background: #F3AC3C;
+          position: absolute;
+          margin-top: -40px;
+          margin-left: -15px;
+          z-index: 0;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+              border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+        }
+          .bar2 {
+           width: 10px;
+          height: 175px;
+          background: #F3AC3C;
+          position: absolute;
+          margin-top: -20px;
+          margin-left: 10px;
+          z-index: 0;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+              border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+               transform: rotate(60deg);
+        }
+          .bar3 {
+           width: 10px;
+          height: 175px;
+          background: #F3AC3C;
+          position: absolute;
+          margin-top: -15px;
+          margin-left: 5px;
+          z-index: 0;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+              border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;   			transform: rotate(-60deg);
+        }
+      </style>
+</head>
+<body>
+    <div class="outer-circle"></div>
+<div class="inner-circle"></div>
+<div class="inner-circle1"></div>
+<div class="inner-circle3"></div>
+<div class="bar1"></div>
+<div class="bar2"></div>
+<div class="bar3"></div>
+</body>
+</html>
